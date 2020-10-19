@@ -3,5 +3,8 @@ spring:
     name: nacos-demo #服务名
   cloud:
     nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
       discovery:
         server-addr: 127.0.0.1:8848 #nacos地址
